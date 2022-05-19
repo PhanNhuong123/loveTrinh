@@ -23,7 +23,7 @@ var typed = new Typed("#typed", {
     
   ],
 
-  typeSpeed: 0,
+  typeSpeed: 30,
   backSpeed: 0,
   backDelay: 500,
   startDelay: 2000,

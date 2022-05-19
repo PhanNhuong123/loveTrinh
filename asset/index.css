@@ -1,9 +1,11 @@
 body {
     background-color: #000;    
     margin: 0;
-    overflow: hidden;
-    background-repeat: no-repeat;
     font-family: 'Dancing Script', cursive;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
   }
   
 #particles-js{
@@ -72,7 +74,10 @@ h1 {
     width: 100%;
     animation: move linear 3000ms infinite;  
   }
-  
+  canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+  }
   @keyframes move {
     0% {
       text-shadow:
