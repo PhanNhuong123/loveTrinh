@@ -1,0 +1,137 @@
+body {
+    background-color: #000;    
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+#particles-js{
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.love{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+#particle-image {
+    background-color: #00000036;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  img {
+      width: 0;
+      height: 0;
+  }
+
+  #typed{
+      display: inline;
+      color: white;
+      font-size: x-large;
+  }
+
+.textH{
+    position: absolute ;
+    bottom: 10%;
+    width: 100vw;
+    text-align: center;
+}
+.textT{
+    position: absolute ;
+    bottom: 20%;
+    width: 100vw;
+    text-align: center;
+}
+#typed1{
+    font-size: x-large;
+}
+h1 {
+    color: hsla(0, 0%, 0%, .9);
+    font: normal 140px Varela Round, sans-serif;
+    height: 140px;
+    left: 0;
+    letter-spacing: 5px;
+    margin: -80px 0 0 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 100%;
+    animation: move linear 3000ms infinite;  
+  }
+  
+  @keyframes move {
+    0% {
+      text-shadow:
+        4px -4px 0 hsla(0, 100%, 100%,0.6), 
+        3px -3px 0 hsla(0, 100%, 100%,0.6), 
+        2px -2px 0 hsla(0, 100%, 100%,0.6), 
+        1px -1px 0 hsla(0, 100%, 100%,0.6),
+        -4px 4px 0 hsla(180, 100%, 50%, 0.6), 
+        -3px 3px 0 hsla(180, 100%, 50%, 0.6), 
+        -2px 2px 0 hsla(180, 100%, 50%, 0.6), 
+        -1px 1px 0 hsla(180, 100%, 50%, 0.6)
+      ;
+    }
+    25% {    
+      text-shadow:      
+        -4px -4px 0 hsla(180, 100%, 50%, 0.6), 
+        -3px -3px 0 hsla(180, 100%, 50%, 0.6), 
+        -2px -2px 0 hsla(180, 100%, 50%, 0.6), 
+        -1px -1px 0 hsla(180, 100%, 50%, 0.6),
+        4px 4px 0 hsla(0, 100%, 100%,0.6), 
+        3px 3px 0 hsla(0, 100%, 100%,0.6), 
+        2px 2px 0 hsla(0, 100%, 100%,0.6), 
+        1px 1px 0 hsla(0, 100%, 100%,0.6)      
+      ;
+    }
+    50% {
+      text-shadow:
+        -4px 4px 0 hsla(0, 100%, 100%,0.6), 
+        -3px 3px 0 hsla(0, 100%, 100%,0.6), 
+        -2px 2px 0 hsla(0, 100%, 100%,0.6), 
+        -1px 1px 0 hsla(0, 100%, 100%,0.6),
+        4px -4px 0 hsla(180, 100%, 50%, 0.6), 
+        3px -3px 0 hsla(180, 100%, 50%, 0.6), 
+        2px -2px 0 hsla(180, 100%, 50%, 0.6), 
+        1px -1px 0 hsla(180, 100%, 50%, 0.6)
+      ;
+    }
+    75% {
+      text-shadow:
+        4px 4px 0 hsla(180, 100%, 50%, 0.6), 
+        3px 3px 0 hsla(180, 100%, 50%, 0.6), 
+        2px 2px 0 hsla(180, 100%, 50%, 0.6), 
+        1px 1px 0 hsla(180, 100%, 50%, 0.6),
+        -4px -4px 0 hsla(0, 100%, 100%,0.6), 
+        -3px -3px 0 hsla(0, 100%, 100%,0.6), 
+        -2px -2px 0 hsla(0, 100%, 100%,0.6), 
+        -1px -1px 0 hsla(0, 100%, 100%,0.6)      
+      ;
+    }
+    100% {
+      text-shadow:
+        4px -4px 0 hsla(0, 100%, 100%,0.6), 
+        3px -3px 0 hsla(0, 100%, 100%,0.6), 
+        2px -2px 0 hsla(0, 100%, 100%,0.6), 
+        1px -1px 0 hsla(0, 100%, 100%,0.6),
+        -4px 4px 0 hsla(180, 100%, 50%, 0.6), 
+        -3px 3px 0 hsla(180, 100%, 50%, 0.6), 
+        -2px 2px 0 hsla(180, 100%, 50%, 0.6), 
+        -1px 1px 0 hsla(180, 100%, 50%, 0.6)
+      ;
+    }  
+  }
