@@ -1,4 +1,6 @@
 const imgl = document.querySelector("img");
+const audio1 = document.querySelector("audio");
+audio1.volume = 0.5;
 
 var typed = new Typed("#typed", {
   // stringsElement: '#typed-strings',
@@ -27,7 +29,7 @@ var typed = new Typed("#typed", {
   backSpeed: 0,
   backDelay: 500,
   startDelay: 2000,
-  loop: false,
+  loop: true,
   showCursor: true
 });
 particlesJS("particles-js", {
